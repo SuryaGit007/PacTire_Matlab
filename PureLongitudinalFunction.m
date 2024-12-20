@@ -4,7 +4,7 @@ function [ forceData, tireData, mfData ] = PureLongitudinalFunction(forceData, s
 
 Fprime_z0=forceData.F_z0*tireData.lambda_Fz0;
 forceData.df_z=-(forceData.F_z-forceData.Fprime_z0)/forceData.Fprime_z0;
-%forceData.df_z = -1.0232e-15; %From Marcus's Code
+%forceData.df_z = -1.0232e-15; %From Marcuss Code
 epsilons.eps_x=1;%This is just an arbitrary value. What should it be??
 epsilons.eps_Vx=1;%This is just an arbitrary value. What should it be??
 
